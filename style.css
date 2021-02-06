@@ -1,0 +1,256 @@
+html, body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.page-header {
+    display: flex;
+/*    margin-top: 10px;*/
+}
+
+ .page-header img {
+    width: 75px;
+    height: 75px;
+}
+
+.main-menu {
+    flex-grow: 1;
+}
+
+.main-menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-menu-list a {
+    font-size: 30px;
+    line-height: 41px;
+    color: #2A3D8F; 
+}
+
+.main-menu-list a:hover {
+    color: #3893cc; 
+}
+
+
+
+
+
+.page-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    color: #000000;
+}
+
+.hashtag, .footer-social, .copyright {
+    margin: 0;
+    padding: 0;
+}
+
+.hashtag {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    margin: 0px 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.footer-wrapper {
+    background-color: #B5D4C5; 
+}
+
+
+h2 {
+    color: #2A3D8F;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+
+.slogan {
+    height: 558px;
+    background-image: url(img/img/innsbruck1.png);
+    background-color: #dbe8f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.slogan h1 {
+    margin: 0;
+    padding-top: 240px;
+    font-size: 60px;
+    line-height: 82px;
+    color: #ffffff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-numbers-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.about-numbers-list li::before {
+    content: "✓";
+    margin-right: 3px;
+}
+
+.marketing {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/img/skier.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    width: 30%;
+}
+
+.marketing p {
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    line-height: 33px;
+}
+
+.marketing a {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 5px 10px;
+    background-color: #fff;
+    opacity: 0.7;
+    align-self: flex-end;
+    color: #000000;
+}
+
+.about-wether-graph {
+    border: thin solid #c0c0c0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.about-wether-graph figcaption {
+    font-size: 22px;
+    line-height: 33px;
+    background-color: rgb(124, 124, 124); 
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+.gallery-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: row;
+/*    flex-wrap: wrap;*/
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #ffffff;
+    background-color: #B5D4C5;
+}
+
+.gallery-item h3 {
+    display: flex;
+    text-transform: uppercase;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 28px;
+}
+
+.gallery-item img {
+    width: 65%;
+}
+
+
+.transfer {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.transfer thead {
+    background-color: rgb(32, 46, 92);
+    color: #fff;
+}
+
+.transfer td, th {
+    border: 1px solid #333;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

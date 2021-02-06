@@ -1,0 +1,139 @@
+@media (max-width: 1200px) {
+    .main-menu-list a {
+        font-size: 24px;
+    }
+
+    .slogan h1 {
+        font-size: 40px;
+    }
+
+    .gallery-item {
+        flex-direction: column;
+    }
+
+    .gallery-item:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .gallery-item img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    h2 {
+        font-size: 26px;
+
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .page-header {
+        flex-direction: column;
+    }
+
+    .page-header img {
+        width: 55px;
+        margin-bottom: 5px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .main-menu {
+        width: 100%;
+    }
+
+    .main-menu-list {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-menu-list li {
+        border-bottom: 1px solid #e5e5e5;
+        width: 100%;
+    }
+
+    .main-menu-list a {
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+        padding: 10px 18px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .marketing {
+        width: 100%;
+    }
+
+    .marketing p {
+        font-size: 20px
+    }
+
+    .gallery-item {
+        height: 200px;
+    }
+
+    .gallery-item h3 {
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .about-wether-graph figcaption {
+        font-size: 12px;
+    }
+
+    .transfer {
+        margin: 0;
+        width: 100%;
+    }
+
+    .transfer thead {
+        display: none;
+    }
+
+    .transfer tr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .transfer td {
+        position: relative;
+        margin: 0 -1px -1px 0;
+        padding-top: 35px;
+        width: 45%;
+    }
+
+    .transfer span {
+        display: block;
+        width: 100%;
+        background-color: rgba(0, 38, 163, 0.336);
+        color: dimgray;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 5px 0;
+        position: absolute;
+        text-transform: uppercase;
+        top: 0;
+        left: 0;
+    }
+
+    .page-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-social {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
